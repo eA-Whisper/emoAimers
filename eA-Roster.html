@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eA-Roster</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000; /* Pechschwarzer Hintergrund */
+            color: #ff4444; /* Dunkles Rot für Text */
+            margin: 0;
+            padding: 0;
+        }
+        .header-banner {
+            width: 100%;
+            height: 100vh; /* Vollbildhöhe */
+            background-image: url('https://pbs.twimg.com/profile_banners/1877996364761882624/1741541301/1500x500');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Banner bleibt fest */
+            display: flex;
+            align-items: center; /* Text vertikal zentrieren */
+            justify-content: center;
+            text-align: center;
+        }
+        h1 {
+            color: #ff4444; /* Dunkles Rot für Überschrift */
+            font-size: 3rem; /* Größere Schrift */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
+            background-color: rgba(0, 0, 0, 0.7); /* Schwarzer Balken hinter dem Text */
+            padding: 10px 20px; /* Innenabstand für den Balken */
+            border-radius: 10px; /* Abgerundete Ecken */
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.8); /* Dunkler Hintergrund für den Inhalt */
+            padding: 20px;
+        }
+        h2, h3 {
+            color: #ff4444; /* Dunkles Rot für Überschriften */
+            text-align: center; /* Überschriften zentrieren */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .member-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .member-card {
+            background: #1a1a1a; /* Dunkler Hintergrund für Karten */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 68, 68, 0.2); /* Rote Schatten */
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 68, 68, 0.4); /* Intensivere rote Schatten beim Hover */
+        }
+        .member-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .member-card a {
+            text-decoration: none;
+            color: #ff4444; /* Dunkles Rot für Links */
+            font-weight: bold;
+        }
+        .member-card a:hover {
+            text-decoration: underline;
+        }
+        .role-section {
+            margin-bottom: 40px;
+        }
+        .role-section h2 {
+            border-bottom: 2px solid #ff4444; /* Rote Unterstreichung */
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            text-align: center; /* Labels zentrieren */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header-Banner -->
+<div class="header-banner">
+    <h1>eA-Roster</h1>
+</div>
+
+<!-- Inhalt -->
+<div class="content">
+    <!-- Founder Section -->
+    <div class="role-section">
+        <h2>Founder</h2>
+        <div class="member-list">
+            <div class="member-card">
+                <a href="https://x.com/m0drn_">m0drn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Administrators Section -->
+    <div class="role-section">
+        <h2>Administrators</h2>
+        <div class="member-list">
+            <div class="member-card">
+                <a href="https://x.com/saiphy_">Saiphy</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/nepaims">nep</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Badnametag_">Badnametag</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Tabbington_">Tabs</a> <!-- Tabs hinzugefügt -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Manager Section -->
+    <div class="role-section">
+        <h2>Media Manager</h2>
+        <div class="member-list">
+            <div class="member-card">
+                <a href="https://x.com/seanAIMSS">seanAIMS</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Members Section -->
+    <div class="role-section">
+        <h2>Members</h2>
+        <div class="member-list">
+            <div class="member-card">
+                <a href="https://x.com/Cryodrollic">Cry</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/InadequateAngel">angel</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/arrteyy">artey</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/AscendPC">Ascend</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/lsdpup">boxxy</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/DecayCantAim">Decay</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/SirCarriedAlot">Carrie</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/enseifps">ensei</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Exist9k">exist</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/pasuprincess">pasuprincess</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/yyfuchsia">Fuchsia</a> <!-- Fuchsia korrigiert -->
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/worstpaxk">jo</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/thejoojootrain">JooJoo</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/KuramiOwO">Kura</a>
+            </div>
+            <div class="member-card">
+                <a href="https://www.twitch.tv/lemonbarista">Lemon</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/m0narcS">m0narcS</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/MalFPS_">Mal</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/mefdet_">mefdet</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/mikusucks">miku</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/minaxrr">minax</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/flavourpouch">packet</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/PokeFPS_">Poke</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Sainder_Pradipt">Sainder</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/samidoggy">sami</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/SauzaAIM">Sauza</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/SavvyAim">Savvy</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/_spenn">spen</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/ThatGirlFreyja">Freyja</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/N3koVal">Myneko</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/silky787">silky</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/AlexisCantAim">Alexis</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/yoongcantaim">yoong</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Whspr33k">Whisper</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/ii_love_snow">Snow</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/WEEAP3">weeap</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/iHeell_">Hell</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/den1alx">denial</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Einheri_fps">^;;^</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/FMOSzOCE">FMOSz</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/marcychai">marcychai</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/BussyAim/photo">Penz</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/Rivilant">Rivilant</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/xobillionaire">xobile</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/ShikiAims">ShikiAims</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/_twishy">twishy</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/xurshin">xurshin</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/whiro_cal?s=21">Callan</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/borgurt">ac</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/junolym?s=21">Junlym</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/avery_fps?s=21&t=fVZM_1jyliXYUK90ErKj_w">Avery</a>
+            </div>
+            <div class="member-card">
+                <a href="https://x.com/nokiafps">nokia</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
